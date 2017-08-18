@@ -1,0 +1,616 @@
+  
+@media screen and (max-width: 1020px){
+  background: transparent url(../img/woman.png) -31% 52px no-repeat;
+}    
+@media screen and (max-width: 996px){
+	header .right-block{
+	    padding: 11px 0 0 0;
+	}
+	header .logo{
+		margin: 0 0 0 50px;
+	}
+	#offer .blue-block{
+	    padding: 0 60px 0 72px;
+	}
+	#offer{
+		background:transparent url("../img/woman.jpg") -336px -377px no-repeat;
+    
+	}
+	#offer .red-block{
+		padding: 0 72px 0 60px;
+	}
+	.mob{
+		display: block;
+		.col-xs-6{width: 37%;}
+	}
+	.hidden{display: none;}
+	h2{
+		z-index: 1;
+		margin-top: 0;
+	}
+	.table h2{
+		padding: 19px 45px;
+	}
+	#phone .leave{
+		padding: 80px 100px 55px 100px;
+	}
+	.desktop{
+		display: none;
+	}
+
+
+}
+@media screen and (max-width: 768px){
+
+	#why .why-block{
+		margin: 0 65px 0 65px;
+	    padding-bottom: 28px;
+	}
+	#why .even{
+		margin-left: 230px;
+	}
+	#why h2{
+		margin-bottom: 45px;
+	}
+	#why .odd{
+		margin-right: 165px;
+	}
+	#advantages .why-block{
+		border-bottom: none;
+	}
+	.red-line{
+		width: 500px;
+		margin: 0 auto;
+		border-bottom: 3px dotted $red;
+		border-top: none;
+		border-left: none;
+		border-right: 0;
+	}
+	#advantages .name-why{
+		margin: 45px 0 10px 0;
+	}
+	#advantages .number{
+		left: calc(100% - 541px);
+	}
+	#companies .line{
+		flex-direction: column;
+	}
+	#companies h2{
+		margin-bottom: 65px;
+	}
+	#offer .blue-block{
+	    padding: 0 35px 0 35px;
+    }
+	#offer .red-block{
+		padding: 0 35px 0 35px;
+	}
+	#first{
+		background:transparent url("../img/main.jpg") -236px top no-repeat;
+	}
+	.row{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	#phone{
+	    padding: 0 0 100px 0;
+	}
+
+}
+@media screen and (max-width: 750px){
+	.hide750{
+		display: none;
+	}
+	.mob-750-show{
+	    margin: 250px 0 0 0;
+	    display: block;
+	    color: $blue;
+	}
+	#first .mob-750-show a{color: $blue;}
+	#first{
+	    padding: 450px 0 168px 0;
+	    background:transparent url("../img/main750.jpg") no-repeat;
+
+	}
+	#why .why-block{
+	    max-width: 424px;
+	    margin: 40px auto;
+        height: 145px;
+        min-height: auto;
+	}
+	#why h2{
+		margin-bottom: 30px;
+	    padding: 18px 44px;
+	}
+	#why .last-why{
+		max-width: 100%;
+	    margin: 40px 60px;
+	}
+	footer .go-up{
+		padding: 0 61px;
+	}
+	footer .working-hours{
+		border-right: none;
+	}
+	#first .description{
+		padding: 0px 50px 70px 50px;
+	}
+	header .right-block{
+	    padding: 27px 0;
+	    font-size: 19px;
+	}
+	#offer{
+	    padding: 0 0 453px 0;
+	}
+	#why .button-start{
+	    margin: 128px 0;
+	}
+	.table{
+	    padding: 0 0 32px 0;
+	}
+	.table .row{
+		min-height: 106px;
+		padding: 0 35px;
+	}
+	.table .small-text{
+		padding: 0 26px;
+	}
+	header{
+	    padding: 19px 0 20px 0;
+	}
+	#order h3{
+	    margin: 12px 0 39px 0;
+	}
+	.table-mob-lg{
+	    padding: 0 0 15px 0;
+	}
+	#analysis{
+		background:transparent url("../img/analysis750.jpg") left top no-repeat;
+		.question{
+		    padding: 0 177px 50px;
+		    line-height: 35px;
+		}
+		h2{
+			margin-bottom: 360px;
+		}
+	}
+	#analysis .answer{
+	    padding: 30px 0 90px 0;
+	    line-height: 35px;
+	}
+	#advantages{
+		padding:  0 0 4px 0;
+	}
+	#companies .line2{
+	    margin: 64px 0 133px 0;
+	}
+	#companies .line3{
+	    margin: 0 0 87px 0;
+	}
+	#companies .marg-comp{
+		margin: 75px
+	}
+	#phone{
+		background:transparent url('../img/footer750.jpg') left top no-repeat;
+		padding: 0 0 134px 0;
+		.leave{
+			padding: 332px 100px 55px 100px;
+		}
+		 .social{
+		    padding: 200px 0 0 0;
+		}
+		.social-icon{
+			width: 60px;
+			height: 60px;
+		}
+		.insta{
+			margin: 0 25px;
+
+		}
+	}
+	footer {
+		padding: 30px 0;
+		.go-up{
+			line-height: 32px;
+		}
+
+
+	}
+
+	    
+
+}
+
+@media screen and (max-width: 480px){
+  .red-line {
+    width: 90%;
+    margin: auto;
+  }
+
+  .table.desktop,.table.mob {
+    display: none;
+  }
+  .phone{
+  	display: block;
+  }
+
+  section {
+    h2 {
+      font-size: 1em;
+      line-height: 1.2em;
+    }
+  }
+
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    width: 100%;
+    .col-xs-7 {
+      width: 40%;
+      .logo {
+        width: 100%;
+        margin-left: 10%;
+      }
+    }
+    .right-block {
+      padding: 0;
+      float: right;
+      width: 54%;
+      line-height: 56px;
+      font-size: 15px;
+      text-align: center;
+    }
+  }
+
+  #first {
+    background-size: 100%;
+    padding: 0;
+    margin-top: 93px;
+    h1 {
+      font-size: 18px;
+      line-height: 22px;
+      padding: 250px 3% 0 3%;
+    }
+    .description {
+      font-size: 14px;
+      line-height: 16px;
+      padding: 40px 10% 0;
+    }
+    .more {
+      position: relative;
+      top: 70px;
+      padding: 12px 14px;
+    }
+    .mob-750-show {
+      display: block;
+      margin: 180px 0 65px 0;
+      font-size: 14px;
+    }
+  }
+
+  #offer {
+    background: none;
+    padding: 35px 0 55px 0;
+    h2 {
+      margin-top: 0;
+      padding: 18px;
+      &::before {
+        border: none;
+      }
+      &::after {
+        border: none;
+      }
+    }
+    .container {
+      .square {
+        display: none;
+      }
+
+      h3 {
+        padding: 40px 0;
+        margin: 0;
+        &.red {
+          color: #091358;
+        }
+
+        &:nth-of-type(1){
+          &::before {
+            content: "1.";
+            width: 20px;
+            padding-right: 5px;
+          }
+        }
+        &:nth-of-type(2){
+          &::before {
+            content: "2.";
+            width: 20px;
+            padding-right: 5px;
+          }
+        }
+        &:nth-of-type(3){
+          &::before {
+            content: "3.";
+            width: 20px;
+            padding-right: 5px;
+          }
+        }
+      }
+      .row {
+        .blue-block {
+          width: 100%;
+          text-align: center;
+          padding: 0 3%;
+          font-size: 17px;
+          line-height: 25px;
+        }
+        .red-block {
+          margin-top: 8px;
+          width: 100%;
+          text-align: center;
+          padding: 0 3%;
+          font-size: 17px;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+
+  #why {
+    h2 {
+      background-color: #0a125b;
+      padding-left: 10%;
+      padding-right: 10%;
+      line-height: 16px;
+      text-transform: none;
+      font-weight: normal;
+      .medium {
+        font-size: 1em;
+        line-height: 1.2em;
+        display: block;
+        padding-bottom: 8px;
+        text-transform: uppercase;
+      }
+      &::before {
+        border: none;
+      }
+      &::after {
+        border: none;
+      }
+    }
+    .button-start{
+	    margin: 40px 0;
+    }
+    .last-why{
+	    margin: 40px 12px;
+    }
+
+    .container {
+      .col-md-6, .col-sm-12 {
+        .why-block {
+          border: none;
+          padding-bottom: 0;
+          min-height: initial;
+          max-height: 100%;
+          .name-why {
+            text-transform: uppercase;
+            padding: 0 3% 10px 12%;
+          }
+          .deskr-why {
+            padding: 0 3% 0 12%;
+            font-size: 15px;
+            line-height: 21px;
+          }
+
+          .rect {
+            display: none;
+          }
+          &::after {
+            display: none;
+          }
+
+          img {
+            width: 40px;
+            height: auto;
+            top: 0;
+            left: 5%;
+          }
+        }
+      }
+    }
+  }
+
+  .table {
+    .empty {
+      display: none;
+    }
+
+    h2 {
+      padding-left: 10%;
+      padding-right: 10%;
+      &::before {
+        border: none;
+      }
+      &::after {
+        border: none;
+      }
+
+      font-size: 14px;
+      line-height: 18px;
+      text-transform: none;
+      .med.up {
+        text-transform: uppercase;
+        display: block;
+        width: 100%;
+        font-size: 22px;
+        line-height: 28px;
+      }
+    }
+
+    .container {
+      padding: 0 3%;
+      .row {
+        .cell {
+          margin: 0;
+          width: 40%;
+          border-bottom: none;
+          &.col-xs-3 {
+            padding-left: 8px;
+            &.choose {
+              background-color: transparent;
+              .choose-name {
+                line-height: 45px;
+                height: 45px;
+                min-height: 45px;
+                padding: 0 8px;
+                margin: 0;
+                display: block;
+                width: 100%;
+              }
+            }
+          }
+          &.name-col {
+            width: 100%;
+            text-align: center;
+          }
+        }
+        .name-row {
+          &.choose {
+            line-height: 45px;
+            height: 45px;
+            min-height: 45px;
+            padding: 0 8px;
+          }
+          padding: 2px 8px;
+          width: 60%;
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  #analysis {
+    background-position: right top;
+    padding: 0px 0 60px;
+    .question{
+	    padding: 0 0px 50px;
+    }
+    h2{
+    	margin-bottom: 160px;
+    }
+    .answer{
+    	max-width: 430px;
+    }
+  }
+
+  #advantages {
+    h2 {
+      background-color: #0a125b;
+      padding-left: 10%;
+      padding-right: 10%;
+      margin: 0;
+      &::before {
+        border: none;
+      }
+      &::after {
+        border: none;
+      }
+    }
+
+    .container {
+      .col-md-6, .col-md-12 {
+        padding-left: 10%;
+        padding-right: 10%;
+        .why-block {
+          margin: 0;
+          padding: 0 0 10px 0;
+          min-height: inherit;
+
+          .number {
+            left: -4%;
+            top: 14%;
+            color: #cfcfd3;
+            font-size: 64px;
+          }
+
+          .name-why {
+            margin: 10px 0;
+            padding: 0;
+          }
+          .deskr-why {
+            margin: 0;
+            padding: 0 20px;
+          }
+        }
+      }
+    }
+  }
+
+  #companies {
+  	.marg-comp{
+  		margin: 40px;
+  	}
+  	.line2, .line3{
+  		margin: 40px 0;
+  	}
+    h2 {
+      padding-left: 10%;
+      padding-right: 10%;
+      margin-bottom: 0;
+      &::before {
+        border: none;
+      }
+      &::after {
+        border: none;
+      }
+    }
+  }
+
+  #phone {
+	    padding: 0 0 40px 0;
+    h2 {
+      background-color: #0a125b;
+      padding-left: 10%;
+      padding-right: 10%;
+      &::before {
+        border: none;
+      }
+      &::after {
+        border: none;
+      }
+    }
+
+    .leave {
+      padding: 180px 40px 45px 40px;
+    }
+    .phone-number {
+      width: 80%;
+    }
+    .application{
+	    margin: 65px auto 50px auto;
+    }
+
+    .social{
+    	padding: 0;
+    }
+  }
+
+  footer {
+    position: relative;
+    padding: 0;
+    .container {
+      .go-up {
+        padding: 160px 0 0 0;
+        .number-phone, .working-hours, a {
+          display: block;
+          border: none;
+          margin: 5px 0;
+          padding: 0;
+        }
+        .all {
+    	    margin: 400px 70px 60px;
+        }
+      }
+    }
+  }
+}
